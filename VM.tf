@@ -26,7 +26,7 @@ resource "azurerm_virtual_network" "myterraformnetwork" {
     }
 }
 
-#Subnet Configuration
+#Subnet Configuration and Create New Subnet
 
 resource "azurerm_subnet" "myterraformsubnet" {
     name                 = "mySubnet"
